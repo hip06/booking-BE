@@ -4,7 +4,7 @@ import userServices from '../services/userServices'
 
 let homePage = (req, res) => {
     // console.log(users);
-    return res.send('hello server')
+    return res.status(200).json('hello')
 }
 
 
